@@ -1,0 +1,100 @@
+﻿<div id="palco">
+	<div class="camada" id="introducao" >
+		<div class="botaoIntroducao" id="tocar">Tocar Introducao</div>
+		<div class="botaoIntroducao" id="pular">Pular Introducao</div>
+	</div>
+	<div class="camada" id="menu" style="display: none;">
+		<canvas id="nuvensFundo"></canvas>
+		<div id="titulo"></div>
+		<canvas id="nuvensFrente"></canvas>
+		
+		<div class="botaoMenu" id="jogar"></div>
+		<div class="botaoMenu" id="instrucoes"></div>
+		<div class="botaoMenu" id="creditos"></div>	
+		<div class="botaoMenu" id="carregarJogoSalvo"></div>
+		<canvas id="banquinho"></canvas>
+	</div>
+	<div class="camada" id="selecionarNivel" style="display: none;">
+		<div id="areaDosNiveis"></div>
+		<div class="botaoSelecionarNivel" id="voltar">Voltar</div>		
+	</div>
+	<div class="camada" id="dialogo" style="display: none">
+		<div id="imagemDeFundoDialogo"></div>
+		<div id="imagemDoPersonagemDialogo"></div>
+		<p id="falaDialogo"></p>
+		<div class="botaoDialogo" id="proximo">Proximo</div>
+		<div class="botaoDialogo" id="pular">Pular</div>
+	</div>
+	<div class="camada" id="jogo" style="display: none;">
+		<div id="areaJogo"></div>	
+		<div class="botaoJogo" id="menu">Menu</div>
+		<p id="nomeDoNivel">Nome do Nivel</p>
+		<div id="vidas">Quantidade de Vida</div>
+		<div id="dialogo" style="display: none;">
+			<div id="imagemPersonagem"></div>
+			<p id="falaPersonagem"></p>			
+		</div>
+		<div class="popup" id="menu" style="display: none;">
+			<p> Menu</p>
+			<div class="botaoJogoMenu" id="dicas">Dicas</div>
+			<div class="botaoJogoMenu" id="instrucoes">Instrucoes</div>
+			<div class="botaoJogoMenu" id="voltarParaJogo">Voltar para o Jogo</div>		
+			<div class="botaoJogoMenu" id="sairDoJogo">Sair do Jogo</div>
+		</div>
+		<div class="popup" id="fimDeFaseDerrota" style="display: none;">
+			<p>Fim de Fase</p>
+			<div class="botaoJogoFimDeFaseDerrota" id="sairDoJogo">Sair do Jogo</div>		
+			<div class="botaoJogoFimDeFaseDerrota" id="proximaFase">Reiniciar Fase</div>		
+		</div>	
+		<div class="popup" id="fimDeFaseVitoria" style="display: none;">
+			<p>Fim de Fase</p>
+			<div class="botaoJogoFimDeFaseVitoria" id="sairDoJogo">Sair do Jogo</div>		
+			<div class="botaoJogoFimDeFaseVitoria" id="proximaFase">Proxima Fase</div>		
+		</div>			
+		<div class="popup" id="dicas" style="display: none;">
+			<p id="textoDica"></p>
+			<div class="botaoJogoDicas" id="voltar">Voltar</div>		
+		</div>				
+	</div>
+	<div class="camada" id="instrucoes" style="display: none;">
+		<p>Intrucoes</p>
+		<p>Bla, bla, bla</p>
+		<p>Bla, bla, bla</p>
+		<p>Bla, bla, bla</p>
+		<p>Bla, bla, bla</p>
+		<div class="botaoInstrucoes" id="voltar">Voltar</div>				
+	</div>	
+	<div class="camada" id="creditos" style="display: none;">
+	</div>
+	<div class="camada" id="carregarJogoSalvo" style="display: none;">
+		<div class="slot" id="_0">
+			<div class="nomeDoUsuario"></div>
+			<div class="nivelDoUsuario"></div>			
+		</div>
+		<div class="slot" id="_1">
+			<div class="nomeDoUsuario"></div>
+			<div class="nivelDoUsuario"></div>	
+		</div>
+		<div class="slot" id="_2">
+			<div class="nomeDoUsuario"></div>
+			<div class="nivelDoUsuario"></div>	
+		</div>
+		<div class="popup" id="criarPersonagem" style="display: none;">
+			<input type="text" id="caixaParaNomeDoPersonagem"></input>
+			<div class="botaoPopup" id="criar">Criar</div>
+			<div class="botaoPopup" id="voltar">Voltar</div>
+		</div>
+		<div class="popup" id="confirmacao" style="display: none;">
+			<p id="mensagem"></p>
+			<div class="botaoPopup" id="confirmar">Sim</div>
+			<div class="botaoPopup" id="cancelar">Nao</div>
+		</div>
+		<div class="botaoCarregarJogoSalvo" id="criar">Criar</div>
+		<div class="botaoCarregarJogoSalvo" id="voltar">Voltar</div>
+		<div class="botaoCarregarJogoSalvo" id="deletar">Deletar</div>
+	</div>
+	<div id="controleDeSom">
+		<div id="botaoSom"></div>
+		<div id="botaoVolume"></div>	
+	</div>	
+</div>

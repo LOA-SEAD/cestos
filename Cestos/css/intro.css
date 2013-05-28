@@ -1,0 +1,86 @@
+.divsAnimacoes {
+	position: absolute;
+	display: none;
+} 
+
+#sequencia1{	
+	width: 800px;
+	height: 600px;
+	background-image: url(../imgs/animacao/sequencia1/fundo1.png);
+	
+}
+#quadro1 {
+	width: 756px;
+	height: 258px;
+	background-image: url(../imgs/animacao/sequencia1/quadro1.png);
+	top: 16px;
+	left: 20px;
+}
+#quadro2 {
+	width: 763px;
+	height: 293px;
+	background-image: url(../imgs/animacao/sequencia1/quadro2.png);
+	top: 299px;
+	left: 20px;
+}
+
+#rosto1 {
+	top: 60px;
+	left: 20px;
+	width: 351px;
+	height: 500px;
+	background-image: url(../imgs/animacao/sequencia1/rosto1.png);
+}
+
+#rosto2 {
+	top: 50px;
+	left: 410px;
+	width: 372px;
+	height: 506px;
+	background-image: url(../imgs/animacao/sequencia1/rosto2.png);
+}
+
+#sequencia2 {
+	top: 20px;
+	left: 18px;
+	width: 761px;
+	height: 564px;
+	overflow: hidden;
+}
+
+
+#fundo2 {
+	width: 761px;
+	height: 10px;
+	background-image: url(../imgs/animacao/sequencia2/fundo2.png);
+}
+
+#quadroExpandir {
+	top: -380px;
+	left: 0px;
+	background-image: url(../imgs/animacao/sequencia2/quadroExpandir.png);
+	width: 761px;
+	height: 564px;
+
+	transition:transform 2s;
+	transition-property: top;
+	
+	-moz-transition:-moz-transform 2s;
+	-moz-transition-property: top;
+	
+	-webkit-transition:-webkit-transform 3s;
+	-webkit-transition-property: top;
+	
+	-o-transition:-o-transform 2s;
+	-o-transition-property: top;
+
+	-ms-transition:-o-transform 2s;
+	-ms-transition-property: top;
+
+}
+
+#quadroEntrada {
+	width: 761px;
+	height: 228px;
+	background-image: url(../imgs/animacao/sequencia2/quadroEntrada.png);
+}
